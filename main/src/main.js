@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         habits.forEach(habit => {
+            
             const habitElement = document.createElement('div');
             habitElement.className = `bg-white rounded-xl shadow p-6 border-l-4 border-${habit.color}-500`;
             
